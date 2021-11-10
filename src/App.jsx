@@ -1,10 +1,11 @@
 import React from "react";
+import Form from "./Components/form";
 
 class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <p> Hello world </p>
+        <Form />
       </React.Fragment>
     );
   }
